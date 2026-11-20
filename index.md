@@ -1,16 +1,12 @@
-# Privacy Policy — PPSC Archives
+# Privacy Policy — MCQ Archives
 
-**Effective date:** 6 September 2026
-**App:** PPSC Archives (package: `com.ppscarchives.inam`)
+**Effective date:** 20 November 2026  
+**App:** MCQ Archives (package: `com.ppscarchives.inam`)  
 **Contact:** `[cinamullah@gmail.com]`
 
 ## 1. Overview
 
-PPSC Archives is an offline quiz-preparation application for PPSC and other
-Pakistani competitive examinations. Learn 76,000+ MCQs with spaced
-repetition. The app is designed to work **without
-collecting any personal data**. This policy explains exactly what the app
-does and does not do with information on your device.
+MCQ Archives is an independent, offline MCQ-practice application. It is not affiliated with, authorized by, or endorsed by any government entity, examination board, or public service commission. The app is designed to work **without collecting any personal data**. This policy explains exactly what the app does and does not do with information on your device.
 
 ## 2. Data we do NOT collect
 
@@ -26,50 +22,32 @@ The app does **not** collect, transmit, store, or share:
 
 ## 3. Data stored on your device (local only)
 
-The app stores the following **on your device only**, entirely offline, and
-it never leaves the device:
+The app stores the following **on your device only**, entirely offline, and it never leaves the device unless you explicitly export/share a backup yourself:
 
-- **Quiz content** — the question bank ships inside the app as an
-  AES-256-encrypted database (SQLCipher). It is decrypted only in
-  app-private storage that the Android OS restricts to the app itself.
-- **Your progress** — answers, scores, favourites, difficulty preference,
-  and review schedule are stored in app-private storage and optionally in
-  local device backups only if you create them from inside the app and share
-  them yourself.
-- **Question bank** — 75,911 MCQs across 9 subjects, stored encrypted on
-  your device.
+- **Quiz content** — the bundled question bank (23,450 MCQs across 11 subjects in the current version) ships inside the app as an AES-256-encrypted database (SQLCipher) and is accessed in app-private storage.
+- **Your progress** — answers, scores, favourites, removed items, difficulty/source preferences, and review schedule are stored in app-private storage.
+- **Backups you create** — if you use the in-app backup feature, a backup file is created locally (e.g. in Downloads) only when you request it; you control where it goes.
 
 ## 4. Permissions
 
-The app requests **no runtime permissions** and has **no internet
-permission**: it cannot transmit anything even if it wanted to.
+The app is designed to work offline and does not request internet access for normal use. It does not include ads, analytics, or third-party tracking SDKs.
 
 ## 5. Third parties
 
-The app contains **no ads, no analytics, no tracking SDKs, and no third-party
-services**.
+The app contains **no ads, no analytics, no tracking SDKs, and no third-party services**.
 
 ## 6. Data deletion
 
-Because all data stays on your device, you can delete everything the app
-knows by **uninstalling the app** (or via Android Settings → Apps → PPSC Archives
-→ Clear data). In-app "Reset progress" removes your quiz history. There is no
-server-side data to delete because none exists.
+Because data stays on your device, you can delete it by **uninstalling the app** or via **Android Settings → Apps → MCQ Archives → Storage → Clear data**. The in-app reset/progress controls remove local quiz history as applicable. There is no server-side data to delete because none exists.
 
 ## 7. Security
 
-Quiz content is protected with AES-256 encryption at rest (SQLCipher),
-runtime key derivation via the Android Keystore and native code, and APK
-integrity verification. Backups exported from inside the app are created only
-when you explicitly request them, and you choose where they go.
+Quiz content is protected with AES-256 encryption at rest (SQLCipher) and app-private storage protections provided by Android. Backups are created only when you explicitly request them.
 
 ## 8. Changes
 
-If a future version ever adds data collection, this policy will be updated
-*before* that version ships, and the Play Store Data safety section will be
-updated to match.
+If a future version changes data handling, this policy and the Play Store Data safety declaration will be updated **before** that version is published.
 
 ## 9. Contact
 
 Questions about this policy: `[cinamullah@gmail.com]`
-
