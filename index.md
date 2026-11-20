@@ -1,7 +1,7 @@
 # Privacy Policy — MCQ Archives
 
 **Effective date:** 20 November 2026  
-**App:** MCQ Archives (package: `com.ppscarchives.inam`  
+**App:** MCQ Archives (package: `com.ppscarchives.inam`)  
 **Contact:** `cinamullah@gmail.com`
 
 ## 1. Overview
