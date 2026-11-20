@@ -50,4 +50,4 @@ If a future version changes data handling, this policy and the Play Store Data s
 
 ## 9. Contact
 
-Questions about this policy: `[cinamullah@gmail.com]`
+Questions about this policy: `cinamullah@gmail.com`
